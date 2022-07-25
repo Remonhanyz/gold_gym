@@ -47,7 +47,10 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.react-horizontal-scrolling-menu--scroll-container{
+  overflow-x: hidden;
 
+}
 .detail-image {
   width: 729px;
   height: 742px;
@@ -98,13 +101,27 @@ body {
   border: 1px solid #FF2625 !important;
 }
 
+.exercise-btn-yellow:hover{
+  background-color: #FCC757 !important;
+}
+
+.exercise-btn-red:hover{
+  background-color: #FF2625 !important;
+}
+
 .exercise-video {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 387px;
-  height: 381px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 40px; */
+  /* width: 100%; */
   text-decoration: none;
+  
+  /* margin: auto;
+  overflow: hidden;
+  background: #F5F5F5;
+  box-shadow: 5px 5px 15px rgba($rose, .5);
+  border-radius: 10px;
+  padding: 30px; */
 }
 
 @media screen and (max-width:1200px) {
@@ -115,10 +132,7 @@ body {
   
 .hero-banner-img {
   position: absolute;
-      /* z-index: -1; */
-  /* display: block; */
   right: 20px;
-  /* top: 0px; */
   width: 52vw;
   margin-top: -300px;
 

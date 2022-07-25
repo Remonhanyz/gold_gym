@@ -19,7 +19,7 @@ const HeroBanner = () => {
 			>
 				Sweat, Smile <br /> And Repeate
 			</Typography>
-			<Typography fontSize="22px" LineHeight="35px" mb={4} sx={{textAlign: {md:'left', xs:'center'}, transform: {md:'translate(0%,0%)', xs:'translate(-6%, -20%)'}}}>
+			<Typography fontSize="22px" lineheight="35px" mb={4} sx={{textAlign: {md:'left', xs:'center'}, transform: {md:'translate(0%,0%)', xs:'translate(-6%, -20%)'}}}>
 				Check out the most effective <br /> exercises
 			</Typography>
 			<Button
