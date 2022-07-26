@@ -24,7 +24,7 @@ const ExerciseVideos = ({exerciseVideos, name}) => {
 			</Typography>
 			<Grid container sx={{gap: '50px'}} justifyContent="space-evenly">
 				{exerciseVideos.length ? (
-					exerciseVideos.slice(0, 4).map((item, index) => (
+					exerciseVideos.slice(0, 5).map((item, index) => (
 						<Grid item xs={11} component={Card} sx={{										background: "#FBEAC6",
 										boxShadow:
 											"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",     margin: '16',gap: '24px',
