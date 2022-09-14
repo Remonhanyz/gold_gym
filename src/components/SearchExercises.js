@@ -42,7 +42,7 @@ const SearchExercises = ({ setExercises, setBodyPart, bodyPart }) => {
         mb='50px'
         textAlign='center'
         fontWeight={700}
-        sx={{ fontSize: { lg: '44px', xs: '30px' } }}
+        sx={{ fontSize: { lg: '44px', xs: '30px' }, zIndex: '200' }}
       >
         Awesome Exercises You <br />
         Should Know
